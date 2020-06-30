@@ -1,0 +1,38 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ellipse id="visor" cx="250" cy="380" rx="250" ry="90" />
+    <path id="hair" d="M475,500 a40,80 0 1,0 -450,0" fill="#4d3621" />
+    <ellipse id="skin" cx="250" cy="280" rx="220" ry="230" fill="#fcbf83" />
+    <ellipse
+      id="leftEye"
+      cx="150"
+      cy="320"
+      rx="50"
+      ry="30"
+      stroke="#946e47"
+      strokeWidth="1"
+      fill="#ffffff"
+    />
+    <ellipse
+      id="rightEye"
+      cx="340"
+      cy="320"
+      rx="50"
+      ry="30"
+      stroke="#946e47"
+      strokeWidth="1"
+      fill="#ffffff"
+    />
+    <ellipse id="irisLeft" cx="150" cy="320" rx="25" ry="28" fill="#242121" />
+    <ellipse id="irisRight" cx="340" cy="320" rx="25" ry="28" fill="#242121" />
+    <path id="cap" d="M470,270 a60,60 0 1,0 -440,0" fill="#000000" />
+    <ellipse id="nose" cx="245" cy="380" rx="40" ry="20" fill="#d67373" />
+    <ellipse id="leftEar" cx="30" cy="310" rx="30" ry="40" fill="#fcbf83" />
+    <ellipse id="rightEar" cx="470" cy="310" rx="30" ry="40" fill="#fcbf83" />
+    <path id="capText" d="M180,240 a30,30 0 0,1 150,0" fill="#4d3621" />
+    <text width="20rem">
+      <textPath alignmentBaseline="top" href="#capText" fill="#ffffff" font-size="3.2rem">
+        My resume 
+      </textPath>
+    </text>
+</svg>
