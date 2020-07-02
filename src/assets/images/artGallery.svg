@@ -26,12 +26,15 @@
     <ellipse id="irisLeft" cx="150" cy="320" rx="25" ry="28" fill="#242121" />
     <ellipse id="irisRight" cx="340" cy="320" rx="25" ry="28" fill="#242121" />
     <path id="cap" d="M470,270 a60,60 0 1,0 -440,0" fill="#757a57" stroke="#000000" />
+    <circle cx="150" cy="320" r="60" stroke="#6b3d18" stroke-width="3" fill="#a35c23" opacity="0.9"/>
+    <circle cx="340" cy="320" r="60" stroke="#6b3d18" stroke-width="3" fill="#a35c23" opacity="0.9"/>
+    <path d="M 210 320 q 40 -20 70 0" stroke="#6b3d18" stroke-width="5" fill="none"/>
     <ellipse id="nose" cx="245" cy="380" rx="40" ry="20" fill="#d67373" />
     <ellipse id="leftEar" cx="30" cy="310" rx="30" ry="40" fill="#fcbf83" />
     <ellipse id="rightEar" cx="470" cy="310" rx="30" ry="40" fill="#fcbf83" />
     <ellipse id="brushHandle" cx="45" cy="360" rx="20" ry="150" fill="#bf2606" stroke="#000000"/>
-    <ellipse id="brush" cx="45" cy="200" rx="20" ry="40" fill="#000000" stroke="#000000"/>
-    <polygon points="43,120 67,190 23,190" fill="#f35d76" />
+    <ellipse id="brush" cx="45" cy="200" rx="21" ry="37" fill="#000000" stroke="#000000"/>
+    <polygon points="43,120 67,190 23,190" fill="#f35d76"/>
     <ellipse id="hand" cx="45" cy="450" rx="40" ry="50" fill="#fcbf83" stroke="#000000"/>
     <path id="capText" d="M180,240 a30,30 0 0,1 150,0" fill="#4d3621" />
     <text width="20rem">

@@ -28,7 +28,7 @@ const App = () => (
         </div>
         <div className="grid grid-cols-3 gap-4">
           <div className="col-span-1 ... text-gray-700 text-center ml-2 bg-yellow-300 p-2">
-            <p className="mt-16">React App. Gallery for my art work. -></p>
+            <p className="mt-14">React App. Gallery for my art work. -></p>
           </div>
           <div className="col-span-1 col-span-2 ... text-black-700 text-center bg-yellow-400 p-2 hover:bg-yellow-500">
             <Section
