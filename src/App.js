@@ -6,12 +6,12 @@ import artGallery from "./assets/images/artGallery.svg"
 
 const App = () => (
   <div className="">
-    <div className="p-2 text-black  text-5xl text-center uppercase">
+    <header className="p-2 text-black  text-5xl text-center uppercase">
       <Header />
-    </div>
+    </header>
     <div className="md:flex mt-2">
       <div className="md:flex-shrink-0 md:w-1/2">
-        <div className="md:w-full shadow-inner transition duration-500 ease-in-out bg-red-200 hover:bg-red-300 transform hover:-translate-y-1 hover:scale-90 ...">
+        <div className="md:w-full shadow-inner transition duration-200 ease-in-out bg-red-200 hover:bg-red-300 transform hover:-translate-y-1 hover:scale-90 ...">
           <Section
             image={face}
             href="https://emmikcv.netlify.app/"
@@ -19,7 +19,7 @@ const App = () => (
           />
         </div>
       </div>
-      <div className="grid-cols-3 gap-4 mt-4 md:mt-0 mb-2 ">
+      <div className="grid-cols-3 gap-4 mt-4 md:mt-0 mb-2">
         <p className="text-gray-800 text-xl text-center bg-teal-300 p-8 shadow-inner">
           Hey, I'm Emmi! This is my portfolio page. You can find my resume and
           projects over here.
@@ -43,7 +43,7 @@ const App = () => (
               </div>
             </div>
           </div>
-          <div className="col-span-1 col-span-2 transition duration-500 ease-in-out bg-yellow-400 hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-90 ...">
+          <div className="col-span-1 col-span-2 transition duration-200 ease-in-out bg-yellow-400 hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-90 ...">
             <Section
               image={artGallery}
               href="https://emmiart.netlify.app/"
@@ -63,7 +63,7 @@ const App = () => (
         </div>
       </div>
     </div>
-    <div className="p-8 mt-2"></div>
+    <footer className="p-8 mt-2"></footer>
   </div>
 )
 
