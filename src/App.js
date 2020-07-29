@@ -7,10 +7,8 @@ import face from "./assets/images/face.svg"
 import artGallery from "./assets/images/artGallery.svg"
 
 const App = () => (
-  <div className="">
-    <header className="p-2 text-black  text-5xl text-center uppercase">
-      <Header />
-    </header>
+  <>
+    <Header />
     <div className="md:flex mt-2">
       <div className="md:flex-shrink-0 md:w-1/2">
         <Resume
@@ -64,7 +62,7 @@ const App = () => (
       </div>
     </div>
     <Footer />
-  </div>
+  </>
 )
 
 export default App
