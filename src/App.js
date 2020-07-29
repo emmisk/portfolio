@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "./components/Header.js"
-import Section from "./components/Section.js"
+import Project from "./components/Project.js"
 import face from "./assets/images/face.svg"
 import artGallery from "./assets/images/artGallery.svg"
 
@@ -12,7 +12,7 @@ const App = () => (
     <div className="md:flex mt-2">
       <div className="md:flex-shrink-0 md:w-1/2">
         <div className="md:w-full shadow-inner transition duration-200 ease-in-out bg-red-200 hover:bg-red-300 transform hover:-translate-y-1 hover:scale-90 ...">
-          <Section
+          <Project
             image={face}
             href="https://emmikcv.netlify.app/"
             alt="My face"
@@ -44,7 +44,7 @@ const App = () => (
             </div>
           </div>
           <div className="col-span-1 col-span-2 transition duration-200 ease-in-out bg-yellow-400 hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-90 ...">
-            <Section
+            <Project
               image={artGallery}
               href="https://emmiart.netlify.app/"
               alt="My face"

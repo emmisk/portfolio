@@ -1,6 +1,6 @@
 import React from "react"
 
-const Section = ({ image, text, href, alt }) => (
+const Project = ({ image, text, href, alt }) => (
   <section>
     <a href={href} target="_blank" rel="noreferrer noopener">
       <img src={image} alt={alt} />
@@ -9,4 +9,4 @@ const Section = ({ image, text, href, alt }) => (
   </section>
 )
 
-export default Section
+export default Project
