@@ -1,6 +1,8 @@
 import React from "react"
 import Header from "./components/Header.js"
+import Resume from "./components/Resume.js"
 import Project from "./components/Project.js"
+import Footer from "./components/Footer.js"
 import face from "./assets/images/face.svg"
 import artGallery from "./assets/images/artGallery.svg"
 
@@ -11,13 +13,11 @@ const App = () => (
     </header>
     <div className="md:flex mt-2">
       <div className="md:flex-shrink-0 md:w-1/2">
-        <div className="md:w-full shadow-inner transition duration-200 ease-in-out bg-red-200 hover:bg-red-300 transform hover:-translate-y-1 hover:scale-90 ...">
-          <Project
-            image={face}
-            href="https://emmikcv.netlify.app/"
-            alt="My face"
-          />
-        </div>
+        <Resume
+          image={face}
+          href="https://emmikcv.netlify.app/"
+          alt="My face"
+        />
       </div>
       <div className="grid-cols-3 gap-4 mt-4 md:mt-0 mb-2">
         <p className="text-gray-800 text-xl text-center bg-teal-300 p-8 shadow-inner">
@@ -43,13 +43,13 @@ const App = () => (
               </div>
             </div>
           </div>
-          <div className="col-span-1 col-span-2 transition duration-200 ease-in-out bg-yellow-400 hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-90 ...">
-            <Project
-              image={artGallery}
-              href="https://emmiart.netlify.app/"
-              alt="My face"
-            />
-          </div>
+          <Project
+            image={artGallery}
+            href="https://emmiart.netlify.app/"
+            alt="My face"
+            color="bg-yellow-400"
+            hoverColor="bg-yellow-500"
+          />
         </div>
         <div className="grid grid-cols-3 gab-2 mt-2 ml-2  ">
           <div className="col-span-1 col-span-2 ... text-center bg-green-200 shadow-inner">
@@ -63,7 +63,7 @@ const App = () => (
         </div>
       </div>
     </div>
-    <footer className="p-8 mt-2"></footer>
+    <Footer />
   </div>
 )
 
