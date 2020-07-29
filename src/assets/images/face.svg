@@ -1,5 +1,5 @@
 <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
+    xmlns:xlink="http://www.w3.org/1999/xlink">
     <ellipse id="visor" cx="250" cy="380" rx="250" ry="90" />
     <path id="hair" d="M475,500 a40,80 0 1,0 -450,0" fill="#4d3621" />
     <ellipse id="skin" cx="250" cy="280" rx="220" ry="230" fill="#fcbf83" />

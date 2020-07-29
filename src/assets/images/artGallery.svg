@@ -1,5 +1,5 @@
 <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
+    xmlns:xlink="http://www.w3.org/1999/xlink">
     <ellipse id="visor" cx="250" cy="380" rx="250" ry="90" fill="#757a57" stroke="#000000"/>
     <path id="hair" d="M475,500 a40,80 0 1,0 -450,0" fill="#4d3621" />
     <ellipse id="skin" cx="250" cy="280" rx="220" ry="230" fill="#fcbf83" />
@@ -39,7 +39,7 @@
     <path id="capText" d="M180,240 a30,30 0 0,1 150,0" fill="#4d3621" />
     <text width="20rem">
       <textPath alignmentBaseline="top" href="#capText" fill="#ffffff" font-size="3.2rem">
-       Art Gallery
+      Art Gallery
       </textPath>
     </text>
 </svg>
