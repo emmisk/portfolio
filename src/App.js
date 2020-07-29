@@ -32,7 +32,7 @@ const App = () => (
               </p>
               <p className="text-l pl-2 mt-2">React App</p>
               <p className="text-xl pl-2 mt-2"></p>
-              <div class="text-white rounded-full flex items-center justify-center transition duration-500 ease-in-out bg-black hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 ...">
+              <div className="text-white rounded-full flex items-center justify-center transition duration-500 ease-in-out bg-black hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110 ...">
                 <a
                   href="https://github.com/emmisk/art_gallery"
                   target="_blank"
@@ -43,7 +43,7 @@ const App = () => (
               </div>
             </div>
           </div>
-          <div class="col-span-1 col-span-2 transition duration-500 ease-in-out bg-yellow-400 hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-90 ...">
+          <div className="col-span-1 col-span-2 transition duration-500 ease-in-out bg-yellow-400 hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-90 ...">
             <Section
               image={artGallery}
               href="https://emmiart.netlify.app/"
@@ -51,19 +51,19 @@ const App = () => (
             />
           </div>
         </div>
-        <div className="grid grid-cols-3 gab-2 mt-2 ml-2 h-24 ">
+        <div className="grid grid-cols-3 gab-2 mt-2 ml-2  ">
           <div className="col-span-1 col-span-2 ... text-center bg-green-200 shadow-inner">
             <p className="mt-4 text-green-800 text-lg">
               You can find my contact information in my resume.
             </p>
           </div>
-          <div className="col-span-1 ... text-gray-700 text-center ml-2 mr-2 bg-red-200 p-2 shadow-inner">
+          <div className="col-span-1 ... text-gray-700 text-center ml-2 mr-2 p-2 bg-red-200  shadow-inner">
             <p className="p-2">Thank you for your visit!</p>
           </div>
         </div>
       </div>
     </div>
-    <div className=" p-8 mt-2"></div>
+    <div className="p-8 mt-2"></div>
   </div>
 )
 
