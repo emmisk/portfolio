@@ -28,7 +28,7 @@ const App = () => (
               </p>
               <p className="text-l pl-2 mt-2">React App</p>
               <p className="text-xl pl-2 mt-2"></p>
-              <div className="text-white rounded-full flex items-center justify-center transition duration-500 ease-in-out bg-black hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110">
+              <div className="text-white rounded-full flex items-center justify-center transition duration-200 ease-in-out bg-black hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110">
                 <a
                   href="https://github.com/emmisk/art_gallery"
                   target="_blank"
