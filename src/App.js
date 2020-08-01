@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "./components/Header.js"
 import Resume from "./components/Resume.js"
+import Introduction from "./components/Introduction.js"
 import Project from "./components/Project.js"
 import Footer from "./components/Footer.js"
 import face from "./assets/images/face.svg"
@@ -18,10 +19,7 @@ const App = () => (
         />
       </div>
       <div className="grid-cols-3 gap-4 mt-4 md:mt-0 mb-2">
-        <p className="text-gray-800 text-xl text-center bg-teal-300 p-8 shadow-inner">
-          Hey, I'm Emmi! This is my portfolio page. You can find my resume and
-          projects over here.
-        </p>
+        <Introduction />
         <div className="grid grid-cols-3 mr-2 mt-2 ml-2">
           <div className="col-span-1 text-black text-center bg-yellow-300 p-2 shadow-inner">
             <div className="grid-cols-1">
