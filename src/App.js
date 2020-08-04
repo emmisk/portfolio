@@ -29,8 +29,8 @@ const App = () => (
             image={artGallery}
             href="https://emmiart.netlify.app/"
             alt="My face"
-            imageColor="bg-yellow-500"
-            hover="bg-yellow-600"
+            imageColor="yellow-500"
+            hoverColor="yellow-600"
           />
           <ContactInfo />
         </div>
