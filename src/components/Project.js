@@ -33,7 +33,7 @@ const Project = ({
       </div>
     </div>
     <section
-      className={`col-span-1 col-span-2 shadow-inner transition ${imageColor} hover:${hover}`}
+      className={`col-span-1 col-span-2 shadow-inner transition ${imageColor} hover:bg-yellow-600`}
     >
       <a href={href} target="_blank" rel="noreferrer noopener">
         <img src={image} alt={alt} />
