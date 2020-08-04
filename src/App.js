@@ -3,6 +3,7 @@ import Header from "./components/Header.js"
 import Resume from "./components/Resume.js"
 import Introduction from "./components/Introduction.js"
 import Project from "./components/Project.js"
+import ContactInfo from "./components/ContactInfo.js"
 import Footer from "./components/Footer.js"
 import face from "./assets/images/face.svg"
 import artGallery from "./assets/images/artGallery.svg"
@@ -31,12 +32,7 @@ const App = () => (
           imageColor="bg-yellow-400"
           imageHover="bg-yellow-500"
         />
-        <h1 className="mt-2 text-black text-xl text-center uppercase">
-          koistinenemmisofia@gmail.com
-        </h1>
-        <h1 className="text-black text-2xl text-center uppercase">
-          +358 45 888 1335
-        </h1>
+        <ContactInfo />
       </div>
     </div>
     <Footer />
