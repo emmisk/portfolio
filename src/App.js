@@ -20,33 +20,17 @@ const App = () => (
       </div>
       <div className="grid-cols-3 gap-4 mt-4 md:mt-0 mb-2">
         <Introduction />
-        <div className="grid grid-cols-3 ">
-          <div className="col-span-1 text-black text-center bg-yellow-300 p-2 shadow-inner">
-            <div className="grid-cols-1">
-              <p className="text-xl pl-2 mt-2 uppercase">
-                Gallery for my art work
-              </p>
-              <p className="text-l pl-2 mt-2">React App</p>
-              <p className="text-xl pl-2 mt-2"></p>
-              <div className="text-white rounded-full flex items-center justify-center transition duration-200 ease-in-out bg-black hover:bg-yellow-500 transform hover:-translate-y-1 hover:scale-110">
-                <a
-                  href="https://github.com/emmisk/art_gallery"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-          <Project
-            image={artGallery}
-            href="https://emmiart.netlify.app/"
-            alt="My face"
-            color="bg-yellow-400"
-            hoverColor="bg-yellow-500"
-          />
-        </div>
+        <Project
+          projectHeader="Gallery for my art work"
+          projectType="React App"
+          projectColor="bg-yellow-300"
+          projectHover="bg-yellow-500"
+          image={artGallery}
+          href="https://emmiart.netlify.app/"
+          alt="My face"
+          imageColor="bg-yellow-400"
+          imageHover="bg-yellow-500"
+        />
         <h1 className="mt-2 text-black text-xl text-center uppercase">
           koistinenemmisofia@gmail.com
         </h1>
