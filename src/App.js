@@ -20,7 +20,7 @@ const App = () => (
       </div>
       <div className="grid-cols-3 gap-4 mt-4 md:mt-0 mb-2">
         <Introduction />
-        <div className="grid grid-cols-3 mr-2 mt-2 ml-2">
+        <div className="grid grid-cols-3 ">
           <div className="col-span-1 text-black text-center bg-yellow-300 p-2 shadow-inner">
             <div className="grid-cols-1">
               <p className="text-xl pl-2 mt-2 uppercase">
@@ -47,16 +47,12 @@ const App = () => (
             hoverColor="bg-yellow-500"
           />
         </div>
-        <div className="grid grid-cols-3 gab-2 mt-2 ml-2">
-          <div className="col-span-1 col-span-2 text-center bg-green-200 shadow-inner">
-            <p className="mt-4 text-green-800 text-lg">
-              You can find my contact information in my resume.
-            </p>
-          </div>
-          <div className="col-span-1 text-gray-700 text-center ml-2 mr-2 p-2 bg-red-200 shadow-inner">
-            <p className="p-2">Thank you for your visit!</p>
-          </div>
-        </div>
+        <h1 className="mt-2 text-black text-xl text-center uppercase">
+          koistinenemmisofia@gmail.com
+        </h1>
+        <h1 className="text-black text-2xl text-center uppercase">
+          +358 45 888 1335
+        </h1>
       </div>
     </div>
     <Footer />
