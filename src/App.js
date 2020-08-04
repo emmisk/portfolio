@@ -26,12 +26,11 @@ const App = () => (
             projectHeader="Gallery for my art work"
             projectType="React App"
             projectColor="bg-yellow-400"
-            projectHover="bg-yellow-500"
             image={artGallery}
             href="https://emmiart.netlify.app/"
             alt="My face"
             imageColor="bg-yellow-500"
-            imageHover="bg-yellow-600"
+            hover="bg-yellow-600"
           />
           <ContactInfo />
         </div>
