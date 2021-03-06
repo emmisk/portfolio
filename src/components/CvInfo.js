@@ -1,52 +1,15 @@
 import React from "react"
-import MyImg from "../assets/images/me.jpg"
-
-const Header = ({header, infoText}) => {
-return (
-    <>
-    <br />
-    <p className="flex-auto text-center font-mono md:w-full font-bold text-2xl text-red-500">
-    {header}
-    </p>
-    <br />
-    <p className="flex-auto text-center font-mono">{infoText}</p>
-    </>
-    )
-}
-
-const InfoText = ({infoText}) => {
-return (
-    <>
-    <p className="flex-auto text-center font-mono">{infoText}</p>
-    </>
-    )
-}
-
-const SubHeader = ({job, titleAndDate, infoText}) => {
-return (
-    <>
-    <p className="flex-auto text-center font-mono md:w-full font-bold text-blue-700">{job}</p>
-    <p className="flex-auto text-center font-mono font-medium text-blue-500">{titleAndDate}</p>
-    <p className="flex-auto text-center font-mono">{infoText}</p>
-    </>
-    )
-}
-
-const Image = ({}) => {
-return (
-    <>
-    <img className=" w-full" src={MyImg} alt="me"/>
-    </>
-    )
-}
+import InfoText from "./InfoText";
+import SubHeader from "./SubHeader"
+import Image from "./Image"
+import CvHeader from "./CvHeader"
 
 const CvInfo = () => {
 
 return (
-<>
     <div className="md:grid grid-cols-2">
         <div className="w-full ">
-            <Header 
+            <CvHeader 
                 header="Who am I?"
             />
             <InfoText 
@@ -55,7 +18,7 @@ return (
                 I do my job carefully and always try to do my best. I like to solve problems and design different 
                 things."
             />
-            <Header 
+            <CvHeader 
                 header="My skills"
             />
             <InfoText 
@@ -73,7 +36,7 @@ return (
             <InfoText 
                 infoText="Extra skills: google searching."
             />
-            <Header 
+            <CvHeader 
                 header="Work History"
             />
             <SubHeader
@@ -88,7 +51,7 @@ return (
                 infoText="I was part of marketing team and made dashboards about marketing data
                 with my teammate." 
             />
-            <Header 
+            <CvHeader 
                 header="My hobbies"
             />
             <InfoText
@@ -97,8 +60,7 @@ return (
         </div>
         <Image />
     </div>
-</>
-)
+    )
 }
 
 export default CvInfo
