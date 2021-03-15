@@ -1,7 +1,7 @@
 import React from "react"
 import MyImg from "../assets/images/me.jpg"
 
-const Image = ({}) => {
+const Image = () => {
     return (
         <>
         <img className=" w-full" src={MyImg} alt="me"/>
