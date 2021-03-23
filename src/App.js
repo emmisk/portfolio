@@ -27,17 +27,16 @@ const App = () => {
   <>
     <Suspense fallback={<div>Loading...</div>}>
       <Header/>
-      <div className="md:flex">
-        <div className="md:w-1/2 ">
-            <ResumeProject
-              projectHeader="Portfolio"
-              projectType="React, Tailwind CSS"
-              projectColor="bg-red-200"
-              image={face}
-              handleClick={handleClick} 
-          />
-          </div>
-        <div className="grid-cols-3 gap-2">
+      <div className="md:flex md:grid-cols-2">
+          <div className="md:w-1/2 grid-flow-col grid-cols-3 gap-2">
+          <ResumeProject 
+          projectHeader="Portfolio"
+          projectType="React, Tailwind CSS"
+          projectColor="bg-red-200"
+          image={face}
+          handleClick={handleClick} />
+        </div>
+        <div className="md:w-1/2 grid-flow-col grid-cols-3 gap-2">
           <Introduction />
           <Project
             projectHeader="Gallery for my art work"
