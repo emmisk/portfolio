@@ -1,5 +1,10 @@
 import React from "react"
+import ContactInfo from "./ContactInfo"
 
-const Footer = () => <p className="p-8 mt-2"></p>
+const Footer = () => (
+    <>
+    <ContactInfo />
+    </>
+)
 
 export default Footer
