@@ -23,7 +23,7 @@ const ResumeProject = ({
             target="_blank"
             rel="noreferrer noopener"
           >
-            <button className="w-full text-white rounded-full flex items-center justify-center transition duration-200 ease-in-out bg-black hover transform hover:-translate-y-1 hover:scale-110">GitHub</button>
+            <button className="mb-2 w-full text-white rounded-full flex items-center justify-center transition duration-200 ease-in-out bg-black hover transform hover:-translate-y-1 hover:scale-110">GitHub</button>
           </a>
       </div>
     </div>
