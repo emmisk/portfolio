@@ -11,7 +11,7 @@ const Project = ({
   projectHeader,
   projectType,
 }) => (
-  <div className="grid grid-cols-3">
+  <div className="grid grid-cols-3 md:mr-10">
     <div
       className={`col-span-1 text-black text-center ${projectColor} p-2 shadow-inner`}
     >
