@@ -27,7 +27,7 @@ const App = () => {
   <>
     <Suspense fallback={<div>Loading...</div>}>
       <Header/>
-      <div className="md:flex md:grid-cols-2">
+      <div className="md:flex md:grid-cols-2 bg-black">
           <div className="md:w-1/2 grid-flow-col grid-cols-3 gap-2">
           <ResumeProject 
           projectHeader="Portfolio"
