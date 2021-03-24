@@ -1,6 +1,5 @@
 import React, { Suspense, useState } from "react"
 import Header from "./components/Header.js"
-import Introduction from "./components/Introduction.js"
 import Project from "./components/Project.js"
 import Footer from "./components/Footer.js"
 import face from "./assets/images/face.svg"
@@ -28,7 +27,7 @@ const App = () => {
     <Suspense fallback={<div>Loading...</div>}>
       <Header/>
       <div className="md:flex md:grid-cols-2 bg-black">
-          <div className="md:w-1/2 grid-flow-col grid-cols-3 gap-2">
+          <div className="md:w-1/2">
           <ResumeProject 
           projectHeader="Portfolio"
           projectType="React, Tailwind CSS"
@@ -36,8 +35,6 @@ const App = () => {
           image={face}
           handleClick={handleClick} />
         </div>
-        <div className="md:w-1/2 grid-flow-col grid-cols-3 gap-2">
-          <Introduction />
           <Project
             projectHeader="Gallery for my art work"
             projectType="React App"
@@ -49,10 +46,7 @@ const App = () => {
             // hoverColor="bg-yellow-600"
             />
         </div>
-      </div>
-      <div className="">
             {show === "info" && <CvInfo />}
-      </div>
       <Footer />
     </Suspense>
   </>
