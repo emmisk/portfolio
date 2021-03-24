@@ -15,9 +15,9 @@ return (
             <InfoText 
                 infoText="I'm Emmi Koistinen and I living in Helsinki, Finland. 
                 I'm creative person and I love to use my imagination with different things, for example when I painting and coding.
-                I enjoy to learn new things and improve myself.
-                I do my job carefully and always try to do my best. I have good problem solving skills because I like to 
-                research information and find solutions (I also love games where I can solve puzzles)."
+                I do my job carefully and always try to do my best. I have good problem solving skills because I like to search information over Internet, 
+                talk with others and use my imanigation (I also love games where I can solve puzzles). I have (often) good ideas and I enjoy 
+                to learn new skills and improve myself. My friends say that I have optimistic attitude and I always see a positive side to things."
             />
             <CvHeader 
                 header="My skills"
@@ -56,7 +56,7 @@ return (
             subTitle="Another skills:"
             />
             <InfoText 
-                infoText=" google searching."
+                infoText=" google searching, ideation."
             />
             <CvHeader 
                 header="Education"
@@ -77,7 +77,7 @@ return (
                 job="STUK - Säteilyturvakeskus"
                 subTitle="System designer 10/2020–4/2021"
                 location ="Helsinki, Finland"
-                infoText="I made test automation with Java, JUnit and Selenium. " 
+                infoText="I was part of project where I made test automation using Java, JUnit and Selenium." 
             />
             <br />
             <SubHeader
