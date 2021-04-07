@@ -9,32 +9,32 @@ import ResumeProject from "./components/ResumeProject.js"
 
 const App = () => {
   const [show, setShow] = useState(null)
+  const [scroll, setScroll] = useState(false)
+  const toggleInfo = () => (show === "info" ? setShow(null) : setShow("info"))
 
   const handleClick = () => {
-    if(show){
+    if (show) {
       toggleInfo()
-    }else{
+    } else {
       toggleInfo()
-      scrollDown()
+      setScroll(true)
     }
-  } 
-
-  const toggleInfo = () => (show === "info" ? setShow(null) : setShow("info"))
-  const scrollDown = () => window.scrollTo({ top: document.scrollingElement.scrollHeight, behavior: "smooth" })
+  }
 
   return (
-  <>
-    <Suspense fallback={<div>Loading...</div>}>
-      <Header/>
-      <div className="md:flex md:grid-cols-2 bg-black">
+    <>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+        <div className="md:flex md:grid-cols-2 bg-black">
           <div className="md:w-1/2">
-          <ResumeProject 
-          projectHeader="Portfolio"
-          projectType="React, Tailwind CSS"
-          projectColor="bg-red-200"
-          image={face}
-          handleClick={handleClick} />
-        </div>
+            <ResumeProject
+              projectHeader="Portfolio"
+              projectType="React, Tailwind CSS"
+              projectColor="bg-red-200"
+              image={face}
+              handleClick={handleClick}
+            />
+          </div>
           <Project
             projectHeader="Gallery for my art work"
             projectType="React App"
@@ -44,13 +44,15 @@ const App = () => {
             alt="My face"
             imageColor="bg-yellow-500"
             // hoverColor="bg-yellow-600"
-            />
+          />
         </div>
-            {show === "info" && <CvInfo />}
-      <Footer />
-    </Suspense>
-  </>
+        <div>
+          {show === "info" && <CvInfo scroll={scroll} setScroll={setScroll} />}
+        </div>
+        <Footer />
+      </Suspense>
+    </>
   )
-  }
+}
 
 export default App
