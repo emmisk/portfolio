@@ -28,8 +28,6 @@ const App = () => {
         <div className="md:flex md:grid-cols-2 bg-black">
           <div className="md:w-1/2 lg:mr-8 lg:ml-8 md:mr-8 md:ml-8">
             <ResumeProject
-              projectHeader="Portfolio"
-              projectType="React, Tailwind CSS"
               imageColor="bg-red-300"
               hoverColor="bg-red-400"
               image={face}
