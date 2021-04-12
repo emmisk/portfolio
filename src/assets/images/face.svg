@@ -29,9 +29,9 @@
     <ellipse id="nose" cx="245" cy="380" rx="40" ry="20" fill="#d67373" />
     <ellipse id="leftEar" cx="30" cy="310" rx="30" ry="40" fill="#fcbf83" />
     <ellipse id="rightEar" cx="470" cy="310" rx="30" ry="40" fill="#fcbf83" />
-    <path id="capText" d="M180,240 a30,30 0 0,1 150,0" fill="#4d3621" />
-    <text width="20rem">
-      <textPath alignmentBaseline="top" href="#capText" fill="#ffffff" font-size="3rem">
+    <path id="capText" d="M180,240 a30,30 0 0,1  150,0" fill="#4d3621" />
+    <text width="5rem">
+      <textPath startOffset="20%" alignmentBaseline="top" href="#capText" fill="#ffffff" font-size="2rem">
       My resume
       </textPath>
     </text>
