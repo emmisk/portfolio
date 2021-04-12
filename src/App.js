@@ -26,25 +26,28 @@ const App = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <Header />
         <div className="md:flex md:grid-cols-2 bg-black">
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 lg:mr-8 lg:ml-8 md:mr-8 md:ml-8">
             <ResumeProject
               projectHeader="Portfolio"
               projectType="React, Tailwind CSS"
-              projectColor="bg-red-200"
+              imageColor="bg-red-300"
+              hoverColor="bg-red-400"
               image={face}
               handleClick={handleClick}
             />
           </div>
-          <Project
-            projectHeader="Gallery for my art work"
-            projectType="React App"
-            projectColor="bg-yellow-400"
-            image={artGallery}
-            href="https://emmiart.netlify.app/"
-            alt="My face"
-            imageColor="bg-yellow-500"
-            // hoverColor="bg-yellow-600"
-          />
+          <div>
+            <Project
+              projectHeader="Gallery for my art work"
+              projectType="React App"
+              projectColor="bg-yellow-400"
+              image={artGallery}
+              href="https://emmiart.netlify.app/"
+              alt="My face"
+              imageColor="bg-yellow-500"
+              hoverColor="bg-yellow-600"
+            />
+          </div>
         </div>
         <div>
           {show === "info" && <CvInfo scroll={scroll} setScroll={setScroll} />}
