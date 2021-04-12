@@ -9,6 +9,7 @@ const Project = ({
   projectColor,
   projectHeader,
   projectType,
+  hoverColor,
 }) => (
   <div className="grid grid-cols-3 md:mr-10">
     <div
@@ -30,7 +31,7 @@ const Project = ({
       </div>
     </div>
     <section
-      className={`col-span-2 focus:outline-none shadow-inner transition ${imageColor} hover:bg-yellow-600`}
+      className={`col-span-2 focus:outline-none shadow-inner transition ${imageColor} hover:${hoverColor}`}
     >
       <a href={href} target="_blank" rel="noreferrer noopener">
         <img src={image} alt={alt} />
