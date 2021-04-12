@@ -1,10 +1,10 @@
 import React from "react"
 
-const SubHeader = ({ job, location, subTitle, infoText }) => {
+const SubHeader = ({ title, location, subTitle, infoText }) => {
   return (
     <>
       <p className="flex-auto text-center font-mono md:w-full font-bold text-blue-700">
-        {job}
+        {title}
       </p>
       <p className="flex-auto text-center font-mono font-medium text-blue-600">
         {subTitle}
