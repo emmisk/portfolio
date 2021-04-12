@@ -13,13 +13,15 @@ const ContactInfo = () => (
     </h2>
     <h2 className="text-white bg-black text-1xl text-center uppercase py-2 px-8">
       Portfolio - React, Tailwind CSS
-        <a
-            href="https://github.com/emmisk/portfolio"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <button className="self-center w-24 bg-white text-black rounded-full ml-2 hover:bg-red-200">GitHub</button>
-          </a>
+      <a
+        href="https://github.com/emmisk/portfolio"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <button className="self-center w-24 bg-white text-black rounded-full ml-2 hover:bg-red-200">
+          GitHub
+        </button>
+      </a>
     </h2>
   </>
 )
