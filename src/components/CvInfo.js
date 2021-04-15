@@ -16,7 +16,7 @@ const CvInfo = ({ scroll, setScroll }) => {
   }, [myRef, scroll, setScroll])
 
   return (
-    <div ref={myRef} className="md:grid grid-cols-2 p-4">
+    <div ref={myRef} className="md:grid grid-cols-2 p-4 bg-white">
       <div className="w-full">
         <CvHeader header="Who am I?" />
         <InfoText
@@ -38,7 +38,7 @@ const CvInfo = ({ scroll, setScroll }) => {
         <SubHeader subTitle="Version control:" />
         <InfoText infoText="Git." />
         <SubHeader subTitle="Another skills:" />
-        <InfoText infoText=" google searching, ideation." />
+        <InfoText infoText="Google searching, ideation." />
         <CvHeader header="Education" />
         <SubHeader
           title="Karelia University of Applied Sciences"
