@@ -31,7 +31,7 @@ const Project = ({
       </div>
     </div>
     <section
-      className={`w-full h-auto col-span-2 focus:outline-none shadow-inner transition ${imageColor} hover:${hoverColor}`}
+      className={`w-full h-auto col-span-2 focus:outline-none shadow-inner transition ${imageColor} hover:bg-yellow-300`}
     >
       <a href={href} target="_blank" rel="noreferrer noopener">
         <img src={image} alt={alt} className="w-full h-auto" />
