@@ -31,7 +31,7 @@
     <ellipse id="rightEar" cx="470" cy="310" rx="30" ry="40" fill="#fcbf83" />
     <path id="capText" d="M180,240 a30,30 0 0,1  150,0" fill="#4d3621" />
     <text width="5rem">
-      <textPath startOffset="20%" alignmentBaseline="top" href="#capText" fill="#ffffff" font-size="2rem">
+      <textPath startOffset="20%" alignmentBaseline="top" href="#capText" fill="#ffffff" style = "text-transform:uppercase" font-family="monospace" font-size="2.2rem">
       My resume
       </textPath>
     </text>
