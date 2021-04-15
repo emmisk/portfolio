@@ -1,6 +1,10 @@
 module.exports = {
   purge: ["./src/**/*.js"],
   theme: {},
-  variants: {},
+  variants: {
+    extend: {
+      padding: ["hover"],
+    },
+  },
   plugins: [],
 }
