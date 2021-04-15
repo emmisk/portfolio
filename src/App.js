@@ -31,7 +31,7 @@ const App = () => {
             <ResumeProject
               alt="My resume"
               imageColor="bg-red-300"
-              hoverColor="bg-red-400"
+              hoverColor="bg-red-200"
               image={face}
               handleClick={handleClick}
             />
@@ -45,7 +45,7 @@ const App = () => {
               href="https://emmiart.netlify.app/"
               alt="My Art Gallery"
               imageColor="bg-yellow-500"
-              hoverColor="bg-yellow-600"
+              // hoverColor="bg-yellow-600"
             />
           </div>
         </div>
