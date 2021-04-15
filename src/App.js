@@ -11,6 +11,7 @@ const App = () => {
   const [show, setShow] = useState(null)
   const [scroll, setScroll] = useState(false)
   const toggleInfo = () => (show === "info" ? setShow(null) : setShow("info"))
+  const renderLoader = () => <p>Loading...</p>
 
   const handleClick = () => {
     if (show) {
@@ -23,7 +24,7 @@ const App = () => {
 
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={renderLoader()}>
         <Header />
         <div className="md:flex md:grid-cols-2 bg-black">
           <div className="md:w-1/2 lg:mr-8 lg:ml-8 md:mr-8 md:ml-8">
