@@ -30,8 +30,8 @@ const App = () => {
           <div className="md:w-1/2 lg:mr-8 lg:ml-8 md:mr-8 md:ml-8">
             <ResumeProject
               alt="My resume"
-              imageColor="bg-red-300"
-              hoverColor="bg-red-400"
+              imageColor="bg-pink-300"
+              hoverColor="bg-pink-400"
               image={face}
               handleClick={handleClick}
             />
@@ -40,12 +40,12 @@ const App = () => {
             <Project
               projectHeader="Gallery for my art work"
               projectType="React App"
-              projectColor="bg-yellow-400"
+              projectColor="bg-yellow-300"
               image={artGallery}
               href="https://emmiart.netlify.app/"
               alt="My Art Gallery"
-              imageColor="bg-yellow-500"
-              hoverColor="bg-yellow-600"
+              imageColor="bg-yellow-400"
+              hoverColor="bg-yellow-500"
             />
           </div>
         </div>
