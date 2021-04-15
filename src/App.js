@@ -28,6 +28,7 @@ const App = () => {
         <div className="md:flex md:grid-cols-2 bg-black">
           <div className="md:w-1/2 lg:mr-8 lg:ml-8 md:mr-8 md:ml-8">
             <ResumeProject
+              alt="My resume"
               imageColor="bg-red-300"
               hoverColor="bg-red-400"
               image={face}
@@ -41,7 +42,7 @@ const App = () => {
               projectColor="bg-yellow-400"
               image={artGallery}
               href="https://emmiart.netlify.app/"
-              alt="My face"
+              alt="My Art Gallery"
               imageColor="bg-yellow-500"
               hoverColor="bg-yellow-600"
             />
