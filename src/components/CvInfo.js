@@ -20,11 +20,11 @@ const CvInfo = ({ scroll, setScroll }) => {
       <div className="w-full">
         <CvHeader header="Who am I?" />
         <InfoText
-          infoText="I'm Emmi Koistinen and I live in Helsinki, Finland. 
-                I'm a creative person and I love to use my imagination with different things, for example when I'm painting and coding.
-                I do my job carefully and always try to do my best. I have good problem solving skills because I like to search information over Internet, 
-                talk with others and use my creativity (I also love games where I can solve puzzles). I have (often) good ideas and I enjoy 
-                learning new skills and improve myself. My friends say that I have optimistic attitude and I always see a positive side to things."
+          infoText="I'm Emmi, and I live in Tampere, Finland. I'm a creative person, and I love using my imagination in various activities, 
+          such as painting and coding. I approach my work with great care and always strive to do my best. My problem-solving skills are strong, 
+          as I enjoy conducting thorough research on the internet, engaging in discussions with others, and applying my creativity 
+          (I also love puzzle-solving games). I frequently come up with good ideas and take pleasure in acquiring new skills to continuously 
+          improve myself. According to my friends, I possess an optimistic attitude, always seeing the positive side of things."
         />
         <CvHeader header="My skills" />
         <SubHeader subTitle="Programming languages:" />
