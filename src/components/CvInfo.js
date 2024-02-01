@@ -28,13 +28,13 @@ const CvInfo = ({ scroll, setScroll }) => {
         />
         <CvHeader header="My skills" />
         <SubHeader subTitle="Programming languages:" />
-        <InfoText infoText=" JavaScript (React) and HubL syntax" />
+        <InfoText infoText="JavaScript (React) and HubL syntax" />
         <SubHeader subTitle="Test automation:" />
         <InfoText infoText="JUnit and Selenium." />
         <SubHeader subTitle="MarTech:" />
         <InfoText infoText="HubSpot, SEO, marketing automation." />
         <SubHeader subTitle="Databases:" />
-        <InfoText infoText=" PostgreSQL and SQL." />
+        <InfoText infoText="SQL." />
         <SubHeader subTitle="Version control:" />
         <InfoText infoText="Git." />
         <SubHeader subTitle="Another skills:" />
