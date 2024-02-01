@@ -36,7 +36,7 @@ const App = () => {
               handleClick={handleClick}
             />
           </div>
-          <div>
+          <div className="h-full">
             <Project
               projectHeader="Gallery for my art work"
               projectType="React App"

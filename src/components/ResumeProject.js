@@ -7,7 +7,7 @@ const ResumeProject = ({ alt, image, imageColor, handleClick, hoverColor }) => (
         onClick={handleClick}
         className={`w-full h-auto shadow-inner transition ${imageColor} hover:${hoverColor}`}
       >
-        <img src={image} alt={alt} className="w-full h-auto" />
+        <img src={image} alt={alt} className="max-w-full w-full h-auto" width="200" height="200" />
       </button>
     </div>
   </div>

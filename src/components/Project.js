@@ -34,7 +34,7 @@ const Project = ({
       className={`w-full h-auto col-span-2 focus:outline-none shadow-inner transition ${imageColor} hover:bg-yellow-300`}
     >
       <a href={href} target="_blank" rel="noreferrer noopener">
-        <img src={image} alt={alt} className="w-full h-auto" />
+        <img src={image} alt={alt} className="max-w-full w-full h-auto" width="200" height="200" />
       </a>
       <p>{text}</p>
     </section>
