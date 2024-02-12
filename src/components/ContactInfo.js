@@ -3,10 +3,16 @@ import React from "react"
 const ContactInfo = () => (
   <>
     <a
-      className="text-center block uppercase text-xl py-2 px-4 text-white bg-black hover:underline"
+      className="text-center block uppercase text-base py-2 px-4 text-white bg-black hover:underline"
       href="mailto:koistinenemmisofia@gmail.com"
     >
       koistinenemmisofia@gmail.com
+    </a>
+    <a
+      className="text-center block text-base py-2 px-4 text-white bg-black hover:underline"
+      href="https://www.linkedin.com/in/emmi-s-koistinen/"
+    >
+      LinkedIn
     </a>
     <h2 className="text-white bg-black text-1xl text-center uppercase py-2 px-8">
       +358 45 888 1335
