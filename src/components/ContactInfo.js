@@ -10,7 +10,7 @@ const ContactInfo = () => (
     </a>
     <a
       className="text-center block text-base py-2 px-4 text-white bg-black hover:underline"
-      href="https://www.linkedin.com/in/emmi-s-koistinen/"
+      href ="https://www.linkedin.com/in/emmi-s-koistinen/" target="_blank"
     >
       LinkedIn
     </a>
