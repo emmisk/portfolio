@@ -26,8 +26,8 @@ const App = () => {
     <>
       <Suspense fallback={renderLoader()}>
         <Header />
-        <div className="md:flex md:grid-cols-2 bg-black">
-          <div className="md:w-1/2 lg:mr-8 lg:ml-8 md:mr-8 md:ml-8">
+        <div className="lg:flex md:grid-cols-2 bg-black">
+          <div className="lg:w-1/2 lg:mr-8 lg:ml-8 md:mr-8 md:ml-8">
             <ResumeProject
               alt="My resume"
               imageColor="bg-red-300"
@@ -36,7 +36,7 @@ const App = () => {
               handleClick={handleClick}
             />
           </div>
-          <div className="h-full">
+          <div className="h-full lg:w-1/2">
             <Project
               projectHeader="Gallery for my art work"
               projectType="React App"
