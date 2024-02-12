@@ -11,7 +11,7 @@ const Project = ({
   projectType,
   hoverColor,
 }) => (
-  <div className="grid grid-cols-3 md:mr-8 md:ml-8">
+  <div className="grid grid-cols-3 lg:mr-4 lg:ml-4 md:mr-8 md:ml-8">
     <div
       className={`col-span-1 text-black text-center ${projectColor} p-2 shadow-inner`}
     >
